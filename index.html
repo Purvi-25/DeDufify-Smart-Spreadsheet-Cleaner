@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧹 DeDupify</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">🧹 DeDupify</div>
+        <ul class="nav-links">
+            <li class="active">Home</li>
+            <li>History</li>
+            <li>Downloads</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <!-- HERO -->
+     <section class="hero">
+        <h1>Clean Your Spreadsheets. Instantly.</h1>
+        <p>Remove duplicates values from csv files with ease.</p>
+        <div class="hero-buttons">
+            <button class="primary">Upload CSV</button>
+            <button class="secondary">Get Started</button>
+        </div>
+     </section>
+
+    <!-- TOOL CARD -->
+     <section class="tool-section">
+        <div class="tool-card">
+            <h2>Remove Duplicates Values</h2>
+            <p>Upload a CSV file and clean duplicates (case-insensitive)</p>
+
+            <input type="file" id="fileInput" accept=".csv">
+            <input type="text" id="columnInput" placeholder="Column name">
+            <button id="btn">Remove Duplicates</button>
+
+            <p id="result"></p>
+        </div>
+     </section>
+
+     <!-- FEATURES -->
+      <section class="features">
+        <h2>Why use DeDupify ?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                ⚡
+                <h3>Fast</h3>
+                <p>Instant duplicate removal.</p>
+            </div>
+            <div class="feature-card">
+                🔒
+                <h3>Privacy First</h3>
+                <p>Runs entirely in your browser.</p>
+            </div>
+            <div class="feature-card">
+                📄
+                <h3>CSV Support</h3>
+                <p>Works with all CSV files.</p>
+            </div>    
+            <div class="feature-card">
+                🌍
+                <h3>Works Everywhere</h3>
+                <p>PC, Mac, Android, iOS.</p>
+            </div>
+        </div>      
+      </section>
+       
+
+<script src="script.js"></script>
+</body>
+</html> 
