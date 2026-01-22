@@ -13,8 +13,10 @@
 ## 📸 Screenshots
 - **Main UI**
 ![Main UI](assests/DeDupify_1.JPG)
+
+
 - **Duplictes Removed**
-![Duplicates Removed](assests/DeDupify_2.jpg)
+![Duplicates Removed](assests/DeDepify_2.JPG)
 
 ## 🛠️ Technologies used
 
